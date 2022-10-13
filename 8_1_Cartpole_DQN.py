@@ -46,6 +46,7 @@ rewards = 0
 for i in range(1000):  # 1000 time step 반복
     action, _state = model.predict(obs)
     obs, reward, done, info = env.step(action)
+    # obs, reward, done, info, _ = env.step(action)
     res.append({'new_obs':obs, 'rewards':rewards})
     rewards += reward
     env.render()
