@@ -17,4 +17,5 @@ https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md
 
 * 3D balls 불러오기
   - project 탭의 3dballs의 scene 파일을 클릭하면 보임
+  - 실행 버튼을 누르면 균형을 잡는 모습을 볼 수 있음
 
