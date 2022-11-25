@@ -71,7 +71,7 @@ class stock_env(gym.Env):
         self.rewards = 0
         print('reset')
         self.render()
-        return self._get_obs()  # observation return 필요
+        return self._get_obs()
     
     def step(self, action):
         '''
